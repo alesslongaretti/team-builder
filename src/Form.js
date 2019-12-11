@@ -1,18 +1,11 @@
-import React, {useState} from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, {useState} from "react";
 
+const form = props => {const [state, setState] = useState({
+    name:'',
+    email: '',
+    role: ''
 
-function App() {
-
-  const [team, setTeam] = useState([
-    {
-      name: "full name",
-      email:'email',
-      role:"role"
-    }
-  ])
-
+  });
 
 const newState = event => {
   setState({...state,[event.target.name]: event.target.value});
@@ -56,3 +49,5 @@ const submit = event => {
 }
 
 export default App;
+
+export default form;
