@@ -1,0 +1,47 @@
+.submit {
+    margin:2% 0% 2% 0%;
+    font-weight: bold;
+    font-size: 1.2rem;
+
+}
+
+.email-label {
+    position: relative;
+    margin: 0px 173px 0px 0px;
+    
+}
+
+.enter-email {
+    position: absolute;
+    margin:0px 0px 0px -167px;
+  
+
+}
+
+.label {
+    position: relative;
+    margin: 0px 163px 0px 0px
+}
+
+.enter-role {
+    position: absolute;
+   margin:0px 0px 0px -158px;
+}
+
+button {
+color:white;
+background-color: purple;
+padding: 10px 15px ;
+border-radius: 12px;
+font-size: .8rem;
+font-weight: bold;
+}
+button:hover {
+    background: white;
+    color: purple;
+}
+
+.enter-email,.enter-role,.enter-name {
+    font-size: 1rem;
+
+}

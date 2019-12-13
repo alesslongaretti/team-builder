@@ -1,0 +1,29 @@
+.member-list {
+    margin-top: 4%;
+    background-color: rgb(230, 166, 230);
+    color: white;
+    font-size: 1.2rem;
+    width: 700px;
+    margin: auto;
+    margin-top: 2%;
+   
+   
+
+};
+
+.role {
+    padding: 0px
+}
+ 
+.member {
+    padding: 5px;
+}
+
+p {
+    font-weight: bold;
+}
+
+span {
+    font-weight: bolder;
+}
+

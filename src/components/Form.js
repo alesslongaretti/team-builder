@@ -1,4 +1,6 @@
 import React, {useState} from "react";
+import "./Form.css";
+
 
 const Form = ({newTeam}) => {
     const [state, setState] = useState({
@@ -21,37 +23,43 @@ const submit = event => {
 };
 
   return (
+    <div className="submit-member">
       <form onSubmit={submit}>
-        <label>Name</label>
-        <input 
+        <div className="submit">
+        <label>Name: </label>
+        <input className="enter-name"
         name="name"
         type="text"
         placeholder="enter name"
         onChange={newState}
         value={state.name}
-        />
+        /></div>
 
-        <label >Email</label>
-        <input 
+        <div className="submit">
+        <label className="email-label">Email: </label>
+        <input  className= "enter-email"
         name="email"
         type="text"
         placeholder="enter email"
         onChange={newState}
         value={state.email}
         />
+        </div>
 
-        <label>Role</label>
-        <input 
+        <div className="submit">
+        <label className="label">Role: </label>
+        <input className="enter-role"
         name="role"
         type="text"
         placeholder="enter role"
         onChange={newState}
         value={state.role}
         />
-
+        </div>
         <button type="submit">Add Member</button>
 
       </form>
+      </div>
   );
 }
 export default Form;

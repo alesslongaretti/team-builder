@@ -29,7 +29,7 @@ const newTeam= member => {
 
   return (
     <div className="App">
-      <h1> Team Members</h1>
+      <h1 className="Title"> Team Builder</h1>
       <Form newTeam={newTeam} />
       <MemberCard team={team}/>
      
